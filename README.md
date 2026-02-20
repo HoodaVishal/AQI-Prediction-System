@@ -45,13 +45,14 @@ Compared 6 regression models:
 Used K-Fold cross-validation (k=5) and GridSearchCV for hyperparameter tuning.
 
 ## Results
- | Model | R2 Score | MAE | RMSE |
- | Linear | 0.823 | 0.312 | 0.445 | 
- | Ridge | 0.826 | 0.308 | 0.441 |
- | Lasso | 0.825 | 0.310 | 0.443 | 
- | Random Forest | 0.941 | 0.178 | 0.256 | 
+ | Model                 | R2 Score | MAE   | RMSE  |
+ | --------------------- | -------- | ------| ------|
+ | Linear                | 0.823    | 0.312 | 0.445 | 
+ | Ridge                 | 0.826    | 0.308 | 0.441 |
+ | Lasso                 | 0.825    | 0.310 | 0.443 | 
+ | Random Forest         | 0.941    | 0.178 | 0.256 | 
  | **Gradient Boosting** | **0.958** | **0.144** | **0.206**|
- | SVR | 0.887 | 0.245 | 0.355 | 
+ | SVR                   | 0.887    | 0.245 | 0.355 | 
 
 **Best Model: Gradient Boosting with 95.8% R2 score**
 
